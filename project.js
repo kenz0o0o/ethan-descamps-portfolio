@@ -171,6 +171,9 @@ bologna.problem='In Vehicle Virtual Design, our six-person team developed a forw
 bologna.process='We planned the development program and R&D budget, studied the evolution of naked motorcycles and their onboard systems, and translated market research into prioritized requirements. A broad competitor matrix and innovation index informed the product architecture. We then developed Stone, Advanced, Retro, and Natural styling directions through sketches, concept renders, and 2D drawings before advancing Stone and Advanced into ergonomic, packaging, aerodynamic, and seat-area comparisons. The selected Stone direction was carried into the final CAD assembly, chassis and swingarm FEA, final rendering, and a coordinated onboard-system interface.';
 bologna.decisions=['Used requirement-dependency and relative-importance matrices to narrow the design priorities to comfort, affordability, handling, emotion, smart features, innovation, safety, and style.','Built the concept architecture around a 765 cc three-cylinder engine, chassis and swingarm, active suspension, onboard cameras and GPS, IMU, wheelie control, riding modes, and connected onboard software.','Selected the Stone direction after comparing it with Advanced through rider triangles, tank and engine fit, seat area, and the aerodynamic studies reported in the presentation.','Designed the onboard experience as one system spanning navigation, live trip data, tire temperature, wheelie-control settings, riding modes, device connections, and front/rear camera views.'];
 bologna.outcome='The final presentation documents a completed virtual motorcycle concept: a detailed CAD assembly, rendered Stone SP65 exterior, onboard interface suite, and structural checks for the chassis and swingarm. The reported minimum fatigue safety coefficient was 1.1624 for the chassis cornering case; the other reported static and fatigue coefficients were higher. The final concept combined nine highlighted innovations, including a lightweight hollow-perimeter chassis and swingarm, active suspension, advanced IMU, ride modes, connected GPS, cameras, wheelie assist, an intake-variable system, and six infrared sensors.';
+bologna.status='Completed';
+bologna.isDraft=false;
+bologna.videoPlacement='gallery-end';
 bologna.gallery=[
   ['../site-media/bologna-final-presentation/01-market-analysis.png','Market analysis connecting the target rider, desired qualities, use context, and design priorities.'],
   ['../site-media/bologna-final-presentation/02-prioritized-requirements.png','The eight requirements prioritized for the concept-development process.'],
@@ -192,6 +195,60 @@ bologna.gallery=[
   ['../site-media/bologna-final-presentation/18-track-dashboard.png','Track display prioritizing engine speed, lap time, speed, and tire temperature.'],
   ['../site-media/bologna-final-presentation/19-final-innovations.png','Nine system innovations summarized around the final motorcycle concept.']
 ];
+bologna.presentation={
+  title:'Complete Final Presentation',
+  intro:'The complete 48-slide final presentation is shown below in its original sequence, from project planning and market research through concept development, engineering validation, rendering, and the onboard-system interface.',
+  slides:[
+    ['../site-media/bologna-complete-deck/slide-01.png','Slide 1 — Vehicle Virtual Design: Naked OS Bike title and project team.'],
+    ['../site-media/bologna-complete-deck/slide-02.png','Slide 2 — Presentation outline covering the full development process.'],
+    ['../site-media/bologna-complete-deck/slide-03.png','Slide 3 — Development plan and project schedule.'],
+    ['../site-media/bologna-complete-deck/slide-04.png','Slide 4 — Proposed 18-month R&D budget and staffing model.'],
+    ['../site-media/bologna-complete-deck/slide-05.png','Slide 5 — Naked-motorcycle evolution used for environmental analysis.'],
+    ['../site-media/bologna-complete-deck/slide-06.png','Slide 6 — Existing motorcycle onboard-system ecosystem.'],
+    ['../site-media/bologna-complete-deck/slide-07.png','Slide 7 — Market analysis connecting riders, use cases, and desired qualities.'],
+    ['../site-media/bologna-complete-deck/slide-08.png','Slide 8 — Independent/dependent matrix for customer requirements.'],
+    ['../site-media/bologna-complete-deck/slide-09.png','Slide 9 — Relative-importance matrix used to rank requirements.'],
+    ['../site-media/bologna-complete-deck/slide-10.png','Slide 10 — Eight requirements prioritized for the motorcycle concept.'],
+    ['../site-media/bologna-complete-deck/slide-11.png','Slide 11 — Competitor comparison of dimensions, mass, tank capacity, and steering geometry.'],
+    ['../site-media/bologna-complete-deck/slide-12.png','Slide 12 — Competitor powertrain, acceleration, transmission, and speed comparison.'],
+    ['../site-media/bologna-complete-deck/slide-13.png','Slide 13 — Competitor materials, aerodynamic features, brakes, and ABS comparison.'],
+    ['../site-media/bologna-complete-deck/slide-14.png','Slide 14 — Competitor connectivity, media, safety, and price comparison.'],
+    ['../site-media/bologna-complete-deck/slide-15.png','Slide 15 — Innovation index identifying competitive opportunity.'],
+    ['../site-media/bologna-complete-deck/slide-16.png','Slide 16 — Onboard system, wheelie control, IMU, and riding-mode architecture.'],
+    ['../site-media/bologna-complete-deck/slide-17.png','Slide 17 — Engine, chassis, active suspension, cameras, and GPS architecture.'],
+    ['../site-media/bologna-complete-deck/slide-18.png','Slide 18 — Candidate technical solutions compared across motorcycle subsystems.'],
+    ['../site-media/bologna-complete-deck/slide-19.png','Slide 19 — Eight innovations selected through the concept innovation index.'],
+    ['../site-media/bologna-complete-deck/slide-20.png','Slide 20 — Stylistic design axes and progression from sketches to render.'],
+    ['../site-media/bologna-complete-deck/slide-21.png','Slide 21 — Stone direction developed through sketches, concept renders, and drawings.'],
+    ['../site-media/bologna-complete-deck/slide-22.png','Slide 22 — Advanced direction developed through sketches, concept renders, and drawings.'],
+    ['../site-media/bologna-complete-deck/slide-23.png','Slide 23 — Retro direction developed through sketches, concept renders, and drawings.'],
+    ['../site-media/bologna-complete-deck/slide-24.png','Slide 24 — Natural direction developed through sketches, concept renders, and drawings.'],
+    ['../site-media/bologna-complete-deck/slide-25.png','Slide 25 — Stone and Advanced selected as design finalists.'],
+    ['../site-media/bologna-complete-deck/slide-26.png','Slide 26 — Rider ergonomic triangles for both finalist concepts.'],
+    ['../site-media/bologna-complete-deck/slide-27.png','Slide 27 — Ergonomic comparison with the Triumph Street Triple benchmark.'],
+    ['../site-media/bologna-complete-deck/slide-28.png','Slide 28 — Advanced concept tank and engine packaging study.'],
+    ['../site-media/bologna-complete-deck/slide-29.png','Slide 29 — Advanced concept aerodynamic, speed, and seat-area evaluation.'],
+    ['../site-media/bologna-complete-deck/slide-30.png','Slide 30 — Stone concept tank and engine packaging study.'],
+    ['../site-media/bologna-complete-deck/slide-31.png','Slide 31 — Stone concept aerodynamic, speed, and seat-area evaluation.'],
+    ['../site-media/bologna-complete-deck/slide-32.png','Slide 32 — Final CAD assembly from four viewpoints.'],
+    ['../site-media/bologna-complete-deck/slide-33.png','Slide 33 — Chassis and swingarm equivalent-stress and safety-coefficient results.'],
+    ['../site-media/bologna-complete-deck/slide-34.png','Slide 34 — Stone SP65 final-render identity.'],
+    ['../site-media/bologna-complete-deck/slide-35.png','Slide 35 — Final motorcycle render in the architectural environment.'],
+    ['../site-media/bologna-complete-deck/slide-36.png','Slide 36 — Final Stone SP65 render from four viewpoints.'],
+    ['../site-media/bologna-complete-deck/slide-37.png','Slide 37 — Onboard-system launch screen.'],
+    ['../site-media/bologna-complete-deck/slide-38.png','Slide 38 — Eco-mode road dashboard with navigation, trip, speed, and media data.'],
+    ['../site-media/bologna-complete-deck/slide-39.png','Slide 39 — Full-screen navigation and destination search.'],
+    ['../site-media/bologna-complete-deck/slide-40.png','Slide 40 — Tire-temperature and wheelie-control settings.'],
+    ['../site-media/bologna-complete-deck/slide-41.png','Slide 41 — Eco, Road, Sport, Track, and Custom riding modes.'],
+    ['../site-media/bologna-complete-deck/slide-42.png','Slide 42 — Apple, Android, and Bluetooth device-connection options.'],
+    ['../site-media/bologna-complete-deck/slide-43.png','Slide 43 — Apple CarPlay application screen with Atom integration.'],
+    ['../site-media/bologna-complete-deck/slide-44.png','Slide 44 — Android Auto application screen with Atom integration.'],
+    ['../site-media/bologna-complete-deck/slide-45.png','Slide 45 — Front and rear onboard-camera interface.'],
+    ['../site-media/bologna-complete-deck/slide-46.png','Slide 46 — Track dashboard for RPM, lap time, speed, and tire temperature.'],
+    ['../site-media/bologna-complete-deck/slide-47.png','Slide 47 — Nine final motorcycle innovations summarized around the selected design.'],
+    ['../site-media/bologna-complete-deck/slide-48.png','Slide 48 — Final presentation close and Atom project mark.']
+  ]
+};
 
 window.PROJECTS['abbott-internship'].short='Medical-device R&D work spanning rapid prototyping, reverse engineering, design-for-manufacturability, and cross-functional product development.';
 window.PROJECTS['abbott-internship'].problem='Support the development of MRI-compatible implantable device solutions and a next-generation leadless pacemaker while improving the accuracy, manufacturability, and integration of supporting components and systems.';
@@ -210,4 +267,6 @@ if(root&&p?.subprojects){root.querySelector('.next-project').insertAdjacentHTML(
 if(root&&p?.subprojects){const kinetic=p.subprojects.find(project=>project.title==='Kinetic Origami');const kineticCard=[...root.querySelectorAll('.subproject')].find(card=>card.querySelector('h2')?.textContent==='Kinetic Origami');if(kinetic&&kineticCard){const details=kineticCard.querySelector('.callout');if(details)details.textContent=kinetic.details;kineticCard.insertAdjacentHTML('beforeend',`<div class="subproject-gallery">${kinetic.gallery.map(([src,caption])=>`<figure><img src="${src}" alt="${caption}"><figcaption>${caption}</figcaption></figure>`).join('')}</div>`)}}
 if(root&&p?.subprojects){const bluetooth=p.subprojects.find(project=>project.title==='Bluetooth Car');const bluetoothCard=[...root.querySelectorAll('.subproject')].find(card=>card.querySelector('h2')?.textContent==='Bluetooth Car');if(bluetooth&&bluetoothCard){const details=bluetoothCard.querySelector('.callout');if(details)details.textContent=bluetooth.details;bluetoothCard.insertAdjacentHTML('beforeend',`<div class="subproject-gallery">${bluetooth.gallery.map(([src,caption])=>`<figure><img src="${src}" alt="${caption}"><figcaption>${caption}</figcaption></figure>`).join('')}</div>`)}}
 if(root&&p?.subprojects){const helix=p.subprojects.find(project=>project.title==='Helix Sound Machine');const helixCard=[...root.querySelectorAll('.subproject')].find(card=>card.querySelector('h2')?.textContent==='Helix Sound Machine');if(helix&&helixCard){const details=helixCard.querySelector('.callout');if(details)details.textContent=helix.details;helixCard.insertAdjacentHTML('beforeend',`<div class="subproject-gallery">${helix.gallery.map(([src,caption])=>`<figure><img src="${src}" alt="${caption}"><figcaption>${caption}</figcaption></figure>`).join('')}</div>`)}}
-if(root&&p?.video){root.querySelector('.next-project').insertAdjacentHTML('beforebegin',`<section class="gallery-two"><figure><video controls playsinline preload="metadata" src="${p.video.src}"></video><figcaption>${p.video.caption}</figcaption></figure></section>`)}
+if(root&&p?.video&&p.videoPlacement==='gallery-end'){root.querySelector('.gallery-two')?.insertAdjacentHTML('beforeend',`<figure><video controls playsinline preload="metadata" src="${p.video.src}"></video><figcaption>${p.video.caption}</figcaption></figure>`)}
+if(root&&p?.video&&!p.videoPlacement){root.querySelector('.next-project').insertAdjacentHTML('beforebegin',`<section class="gallery-two"><figure><video controls playsinline preload="metadata" src="${p.video.src}"></video><figcaption>${p.video.caption}</figcaption></figure></section>`)}
+if(root&&p?.presentation){root.querySelector('.next-project').insertAdjacentHTML('beforebegin',`<section class="presentation-deck"><div class="presentation-deck-intro"><p class="eyebrow">Final course presentation</p><h2>${p.presentation.title}</h2><p>${p.presentation.intro}</p></div><div class="presentation-deck-grid">${p.presentation.slides.map(([src,caption])=>`<figure><img src="${src}" alt="${caption}" loading="lazy"><figcaption>${caption}</figcaption></figure>`).join('')}</div></section>`)}
