@@ -5,7 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Mechanical engineering portfolio — design, analysis, prototyping, and testing.">
   <title>Ethan Descamps — Mechanical Engineer</title>
-  <link rel="stylesheet" href="styles.css?v=20260825airyblueindex">
+  <script>
+    (() => {
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      const resetHashlessHome = () => { if (!location.hash) window.scrollTo(0, 0); };
+      resetHashlessHome();
+      window.addEventListener('pageshow', resetHashlessHome);
+      window.addEventListener('popstate', () => setTimeout(resetHashlessHome, 0));
+      window.addEventListener('load', () => {
+        resetHashlessHome();
+        requestAnimationFrame(() => requestAnimationFrame(resetHashlessHome));
+      }, { once: true });
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css?v=20260826resume-scrollfix">
   <script src="project.js?v=20260824bolognavideo" defer></script>
   <script src="app.js?v=20260825projectindex" defer></script>
 </head>
@@ -13,7 +26,7 @@
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Home">Ethan Descamps</a>
     <nav aria-label="Primary navigation">
-      <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a href="Ethan-Descamps-Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+      <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a class="resume-link" href="Ethan-Descamps-Resume.pdf" target="_blank" rel="noopener" aria-label="Open Ethan Descamps resume PDF in a new tab">Resume ↗</a>
     </nav>
   </header>
   <main id="top">
@@ -39,7 +52,7 @@
     <section class="contact-band" id="contact" aria-labelledby="contact-title">
       <div class="contact-band-inner">
         <div class="contact-band-copy"><p class="eyebrow">Contact</p><h2 id="contact-title">Let’s build something that works.</h2><p>For opportunities, collaborations, or a conversation about the work:</p></div>
-        <div class="contact-band-actions"><a class="contact-band-email" href="mailto:ethandescamps@berkeley.edu">ethandescamps@berkeley.edu ↗</a><div><a href="https://www.linkedin.com/in/ethan-descamps">LinkedIn ↗</a><a href="Ethan-Descamps-Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div></div>
+        <div class="contact-band-actions"><a class="contact-band-email" href="mailto:ethandescamps@berkeley.edu">ethandescamps@berkeley.edu ↗</a><div><a href="https://www.linkedin.com/in/ethan-descamps">LinkedIn ↗</a><a class="resume-link" href="Ethan-Descamps-Resume.pdf" target="_blank" rel="noopener" aria-label="Open Ethan Descamps resume PDF in a new tab">Resume ↗</a></div></div>
       </div>
     </section>
 
